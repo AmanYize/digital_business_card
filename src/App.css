@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
+
+/* APP SECTION */
+.App{
+    background-color: black;
+    width: 100%; 
+    margin: 0;
+    
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-body{
+    background-color: black;
+    width: 400px;
+    height: 100%;
+    margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* PROFILE SECTION */
+
+.profile-pic{
+    width: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile-box{
+    width: 400px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+/* PROFILE INFO SECTION */
+
+.profile-info{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-info h1, .profile-info h2, .profile-info h4{
+    color: aliceblue;
+    font-family: Tahoma, sans-serif;
+    margin: 10px 0;
+    letter-spacing: 1.5px;
+}
+
+.profile-info h2{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.profile-info h4{
+    font-family: Arial, sans-serif;
+}
+
+/* FIRST CONTACT SECTION */
+
+.first-contact{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.first-contact a{
+    text-decoration: none;
+}
+.btn-1{
+    width: 100px;
+    height: 40px;
+    background: white;
+    cursor: pointer;
+    font-family: Tahoma;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.btn-2{
+    width: 100px;
+    height: 40px;
+    background-image: linear-gradient(144deg,#2b0248, #191248 50%,#0a4549);
+    cursor: pointer;
+    font-family: Tahoma;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.btn-1:hover{
+    border: 1px solid purple;
+    color: #411348;
+}
+.btn-2:hover{
+    background-image: linear-gradient(144deg,#fff, #a3f0ff 50%,#00DDEB);;
+    border: 2px solid #fff;
+    color: #000;
+}
+
+/* INFO SECTION */
+
+.info{
+    width: 375px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.about h3{
+    color: #FFF;
+    font-family: 'Lemon', serif;
+}
+.about p{
+    color: #FFF;
+    font-family: 'PT Serif', serif;
+    margin: 12px;
+}
+
+.interest h3{
+    color: #FFF;
+    font-family: 'Lemon', serif;
+}
+
+.interest p{
+    color: #FFF;
+    font-family: 'PT Serif', serif;
+    margin: 12px;
+}
+
+/* FOOTER SECTION */
+
+footer{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.footer-icon{
+    color: #FFF;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.footer-icon:hover{
+    color:#ff4e89;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
 }
